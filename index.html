@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Expense App Tracker</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Expense App Tracker</h1>
+        <div class="form">
+            <label for="description">Description:</label>
+            <input type="text" id="description" placeholder="Enter description">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+            <button id="addExpense">Add Expense</button>
+        </div>
+        <div class="expenses">
+            <h2>Expenses</h2>
+            <ul id="expenseList"></ul>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h3>BunthongDev, All right reserved</h3>
+            <p>&copy; 2023 Expense App Tracker</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
